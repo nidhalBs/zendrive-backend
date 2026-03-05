@@ -1,0 +1,14 @@
+package com.zendrive.backend.enums;
+
+public enum NotificationType {
+    RESERVATION_CONFIRMED,
+    RESERVATION_CANCELLED,
+    RESERVATION_MODIFIED,
+    PAYMENT_CONFIRMED,
+    PAYMENT_FAILED,
+    REVIEW_PUBLISHED,
+    LOYALTY_POINTS_EARNED,
+    COUPON_RECEIVED,
+    FLIGHT_UPDATE,
+    REMINDER
+}
